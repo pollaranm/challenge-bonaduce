@@ -21,6 +21,7 @@ class Vehicle:
     self.mileage = mileage
 
 # code goes here
+class Bus 
 
 if __name__ == "__main__":
   # keep this function call here 

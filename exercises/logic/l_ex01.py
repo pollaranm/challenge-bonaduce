@@ -22,8 +22,8 @@ res_l_01 = "D"
   considerando che i singoli hanno tutti lo stesso prezzo?
 """
 #Indica gli importi corrispondenti per ogni persona
-res_l_02_A = ""
-res_l_02_B = ""
+res_l_02_A = "5/8 * 16"
+res_l_02_B = "3/8 * 16"
 
 """
   Quesito L04	[3]
@@ -50,7 +50,7 @@ res_l_04_C = ""
   
 """
 #Indica la lettera della scritta
-res_l_09 = ""
+res_l_09 = "C"
 
 """
   Quesito L10	[1]
@@ -60,4 +60,4 @@ res_l_09 = ""
   vendere ogni fetta per ottenere il 100% di guadagno sul costo iniziale?
 """
 #Indica l'importo
-res_l_10 = ""
+res_l_10 = "5"
