@@ -1,0 +1,11 @@
+{
+    "python.envFile": "${workspaceFolder}/.vscode/workspace.env",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestPath": "pytest",
+    "python.testing.cwd": "${workspaceFolder}",
+    "python.testing.pytestArgs": [
+        "tests"
+    ]
+}

@@ -1,0 +1,17 @@
+tasks:
+  - before: |
+     echo "export PYTHONDONTWRITEBYTECODE=1" >> ${HOME}/.bashrc
+     echo "export PYTHONPATH=${GITPOD_REPO_ROOT}" >> ${HOME}/.bashrc
+     python -m pip install -U -r requirements.txt
+    command: 
+     open README.md
+
+ports:
+  - port: 5000
+    visibility: private
+    onOpen: open-preview
+
+vscode:
+  extensions:
+    - "ms-python.python"
+    
