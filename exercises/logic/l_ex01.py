@@ -11,7 +11,7 @@
   D.	-5
 """
 #Indica la lettera corrispondente alla soluzione
-res_l_01 = ""
+res_l_01 = "D"
 
 """
   Quesito L02	[3]

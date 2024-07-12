@@ -21,7 +21,16 @@ def UsernameValidation(strParam):
   """
 
   # code goes here
-  return strParam
+  if (len(strParam) <= 25 and len(strParam)  >= 4):
+      return False
+  elif strParam[0].isLiteral():
+      return False
+  elif strParam[24] == "_":
+    return False
+  elif onlyValidCharacter(strParam,"_") or onlyValidCharacter(strParam,"0123456789") or :
+     return False
+  else:
+    return True
 
 if __name__ == "__main__":
   # keep this function call here 

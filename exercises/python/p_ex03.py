@@ -14,7 +14,9 @@ def Reverse(strParam):
   """
 
   # code goes here
-  return strParam
+  for i in -range(len(strParam)):
+    s += s[]
+  return s
 
 if __name__ == "__main__":
   # keep this function call here 
